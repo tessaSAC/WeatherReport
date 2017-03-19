@@ -1,10 +1,11 @@
 {
-  "name": "Weather Report",
+  "name": "weatherReport",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple weather forecast SPA built with AngularJS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tessaSAC/WeatherReport/issues"
   },
-  "homepage": "https://github.com/tessaSAC/WeatherReport#readme"
+  "homepage": "https://github.com/tessaSAC/WeatherReport#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
